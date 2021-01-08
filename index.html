@@ -3,13 +3,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Java Script</title>
+    <link rel="stylesheet" href="styels.css">
 </head>
 <body>
-    <h1>Welcome To Java Script</h1>
-    
+    <header>
+        <h1>Welcome To Java Script</h1>
+    </header>
+    <section class="container">
+        <form action="" id="my-form">
+            <h1>Register Here</h1>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
 
-    <script src="script.js">
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+            </div>
+                <input class="btn" type="submit" value="Submit">
+                <div class="msg"></div>
+                <h1 class="over"></h1>
+            </form>
 
-    </script>
+        <ul id="users"></ul>
+
+      <ul class="items">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+      </ul>
+
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
